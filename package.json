@@ -1,7 +1,7 @@
 {
-  "name": "libnpx",
+  "name": "libmpx",
   "version": "10.2.3",
-  "description": "support library for npx -- an tool for executing npm-based packages.",
+  "description": "support library for npx -- an tool for executing npm-based packages. Never auto install",
   "main": "index.js",
   "man": "./libnpx.1",
   "files": [
