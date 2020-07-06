@@ -185,6 +185,7 @@ function yargsParser (argv, defaultNpm) {
     })
     .option('no-install', {
       type: 'boolean',
+      default: true,
       describe: Y()`Skip installation if a package is missing.`
     })
     .option('userconfig', {
